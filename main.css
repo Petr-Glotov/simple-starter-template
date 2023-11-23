@@ -28,7 +28,8 @@ li, span {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    left: 1600px;
+    top: -254px;
+    left: 1015px;
     min-width: 232px;
     min-height: 73px;
     background-color: #A276FF;
@@ -122,6 +123,7 @@ li, span {
 }
 
 .main-content {
+    position: relative;
     width: 1100px;
     margin: 254px 0 0 208px;
 }
