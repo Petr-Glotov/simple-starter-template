@@ -137,7 +137,7 @@ li, span {
 }
 
 .main-content-item-1 {
-    display: flex;
+/*    display: flex;*/
     position: relative;
     align-items: flex-start;
     width: 65%;
