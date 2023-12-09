@@ -8,6 +8,12 @@
     border: red solid 1px;
 }*/
 
+body {
+    background-image: url("img/main-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 li, span {
     font-family: 'Oswald', sans-serif;
 }
@@ -18,9 +24,6 @@ li, span {
     background-color: rgba(5, 7, 41, 0.9);
     min-height: 1298px;
     margin: 0 auto;
-    background-image: url("img/main-background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .social {
@@ -35,6 +38,11 @@ li, span {
     background-color: #A276FF;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.social-item-1 {
+    top: -188px;
+    left: 1111px;
 }
 
 .social:hover {
@@ -84,7 +92,7 @@ li, span {
 }
 
 .menu-items p:hover {
-    border-left: solid #A276FF;
+    border-left: solid #F2C94C;
 }
 
 .menu-items p:last-child {
@@ -108,7 +116,7 @@ li, span {
 }
 
 .menu-items a:hover {
-    color: #A276FF;
+    color: #F2C94C;
 }
 
 .gallery {
@@ -130,6 +138,7 @@ li, span {
 
 .main-content-item-1 {
     display: flex;
+    position: relative;
     align-items: flex-start;
     width: 65%;
     height: 1020px;
@@ -226,8 +235,7 @@ p {
 }
 
 .button:hover {
-    border: 3px solid #A276FF;
-    color: #F2C94C;
+    border: 3px solid #F2C94C;
 }
 
 .button a {
@@ -253,7 +261,7 @@ p {
 }
 
 .gallery-element:hover {
-    outline: 6px solid #A276FF;
+    outline: 6px solid #F2C94C;
     border-radius: 11px;
 }
 
